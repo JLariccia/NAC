@@ -1,0 +1,483 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
+/* UNVIVERAL SITE STYLING */
+
+body {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.navbar {
+  border-bottom: #1a428a 4px solid;
+  opacity: 0.9;
+}
+
+#navbarCollapse {
+  font-size: 15px;
+}
+
+#footer-links {
+  font-size: 15px;
+}
+
+.navbar p {
+  font-size: 22px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item h1 {
+  color: #fff;
+  text-shadow: 0px 2px 2px rgba(36, 35, 35, 0.9);
+}
+
+.carousel-item p {
+  color: #fff;
+  text-shadow: 0px 2px 2px rgba(36, 35, 35, 0.9);
+}
+
+.carousel-item {
+  height: 850px;
+}
+
+.carousel-image-1 {
+  background: url(../img/home-2.jpg);
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url(../img/products-landing.jpg);
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url(../img/crack-Isolation.jpg);
+  background-size: cover;
+}
+
+/* GALLERY */
+
+#gallery .carousel-item {
+  background: url(../img/ritz-carlton-la.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+}
+
+#gallery .gallery-1 {
+  background: url(../img/ritz-carlton-la.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+}
+
+#gallery .gallery-2 {
+  background: url(../img/willshire.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+}
+
+#gallery .gallery-2 {
+  background: url(../img/willshire.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+}
+
+#gallery .gallery-3 {
+  background: url(../img/one57.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+}
+
+#gallery .gallery-4 {
+  background: url(../img/eaton.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+}
+
+#gallery .gallery-5 {
+  background: url(../img/ted-stevens.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+}
+
+#gallery .gallery-6 {
+  background: url(../img/south-shore-plaza.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+}
+
+.gallery-item h1 {
+  color: #fff;
+  text-shadow: 0px 2px 2px rgba(36, 35, 35, 0.9);
+}
+
+.gallery-item p {
+  color: #fff;
+  text-shadow: 0px 2px 2px rgba(36, 35, 35, 0.9);
+}
+
+.gallery-item {
+  height: 850px;
+}
+
+/* PRODUCT CATEGORY JUMBOTRONS */
+
+#products-landing {
+  background-image: url(../img/products-landing.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 450px;
+  margin-bottom: 0px;
+}
+
+#architects {
+  background-image: url(../img/architects.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 450px;
+  margin-bottom: 0px;
+}
+
+#aia {
+  background-image: url(../img/arch-presentations.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 450px;
+  margin-bottom: 0px;
+}
+
+#tech-data {
+  background-image: url(../img/tech-data.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 350px;
+  margin-bottom: 0px;
+}
+
+#videos {
+  background-image: url(../img/videos.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 350px;
+  margin-bottom: 0px;
+}
+
+#crack-isolation {
+  background-image: url(../img/crack-Isolation.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 450px;
+  margin-bottom: 0px;
+}
+
+#jobsite-protection {
+  background-image: url(../img/job-site-protection.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 450px;
+  margin-bottom: 0px;
+}
+
+#sound-control {
+  background-image: url(../img/sound-control.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 450px;
+  margin-bottom: 0px;
+}
+
+#waterproofing {
+  background-image: url(../img/waterproofing.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 450px;
+  margin-bottom: 0px;
+}
+
+#accessories {
+  background-image: url(../img/accessories.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 450px;
+  margin-bottom: 0px;
+}
+
+#kits {
+  background-image: url(../img/kits.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 450px;
+  margin-bottom: 0px;
+}
+
+#primers {
+  background-image: url(../img/primers.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 450px;
+  margin-bottom: 0px;
+}
+
+#system-illustration {
+  background-image: url(../img/system-illustration.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 450px;
+  margin-bottom: 0px;
+}
+
+#contact {
+  background-image: url(../img/contact.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 750px;
+  margin-bottom: 0px;
+}
+
+#contact p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+#contact .card-form {
+  opacity: 0.8;
+}
+
+#contact .calendar-inner {
+  padding-top: 75px;
+  margin-bottom: 0px;
+}
+
+#calendar {
+  background-image: url(../img/calendar-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 750px;
+  margin-bottom: 0px;
+}
+
+#calendar p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+#calendar .card-form {
+  opacity: 0.8;
+}
+
+#calendar .calendar-inner {
+  padding-top: 75px;
+  margin-bottom: 0px;
+}
+
+#about {
+  background-image: url(../img/about.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 450px;
+  margin-bottom: 0px;
+}
+
+#about p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+#explore-head-section {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(../img/manufacturing-bg.png);
+  color: #fff;
+}
+
+#explore-head-section .btn {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  border-color: #1a428a;
+  color: #1a428a;
+}
+
+#explore-head-section .btn:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1a428a;
+  color: #fff;
+}
+
+#home .btn {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  border-color: #1a428a;
+  color: #1a428a;
+}
+
+#home .btn:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1a428a;
+  color: #fff;
+}
+
+#products-head-section {
+  border-bottom: #e43d30 3px solid;
+}
+
+#calendar-section {
+  background-image: url(../img/calendar-bg.jpg);
+}
+
+#calendar-section .card-form {
+  opacity: 0.8;
+}
+
+#calendar-section .calendar-inner {
+  padding-top: 75px;
+  margin-bottom: 0px;
+}
+
+#nac-insider {
+  background-image: url(../img/nac-insider.jpg);
+}
+
+#nac-insider .card-form {
+  opacity: 0.8;
+}
+
+#nac-insider .calendar-inner {
+  padding-top: 75px;
+  margin-bottom: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  color: white !important;
+}
+
+ol {
+  list-style-type: square;
+}
+
+#products .btn {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  border-color: #1a428a;
+  color: #1a428a;
+}
+
+#products .btn:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1a428a;
+  color: #fff;
+}
+
+#solutions .btn {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  border-color: #9c0404fe;
+  color: #9c0404fe;
+}
+
+#solutions .btn:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #9c0404fe;
+  color: #fff;
+}
+
+#home .tech-button {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  border-color: grey;
+  color: grey;
+}
+
+#home .tech-button:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: grey;
+  color: #fff;
+}
+
+.page-footer {
+  color: #fff;
+}
+
+#main-footer {
+  background-image: linear-gradient(to top right, #1d252c, #101820);
+  min-height: 375px;
+}
+
+#main-footer .page-footer:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+
+#main-footer p {
+  font-size: 15px;
+}
