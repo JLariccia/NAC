@@ -28,6 +28,11 @@ body {
 .navbar {
   border-bottom: #1a428a 4px solid;
   opacity: 0.9;
+  overflow-y: inherit;
+}
+
+#main-nav {
+  max-height: inherit;
 }
 
 #navbarCollapse {
