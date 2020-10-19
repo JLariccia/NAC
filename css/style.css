@@ -220,7 +220,7 @@ body {
 
 #jobsite-protection {
   background-image: url(../img/job-site-protection.jpg);
-  background-position: center center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-attachment: sticky;
   background-size: cover;
