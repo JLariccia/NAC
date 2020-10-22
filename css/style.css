@@ -1,13 +1,23 @@
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
   ...;
 }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  ...;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  ...;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
   ...;
 }
 
@@ -65,7 +75,7 @@ body {
 }
 
 .carousel-item {
-  height: 975px;
+  height: 850px;
 }
 
 .carousel-image-1 {
@@ -226,8 +236,8 @@ body {
 }
 
 #jobsite-protection {
-  background-image: url(../img/job-site-protection.jpg);
-  background-position: bottom center;
+  background-image: url(../img/jobsite-protection.jpg);
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: sticky;
   background-size: cover;
@@ -247,7 +257,7 @@ body {
 
 #waterproofing {
   background-image: url(../img/waterproofing.jpg);
-  background-position: center center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-attachment: sticky;
   background-size: cover;
