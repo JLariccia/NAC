@@ -139,16 +139,29 @@
                   <div class="card-body">
                     <h3>Request a Calendar</h3>
                     <p><em>Limited prints available for 2021</em></p>
-                    <form action="">
+                    <form id="form2"
+                      name="form2"
+                      class="wufoo topLabel page"
+                      accept-charset="UTF-8"
+                      autocomplete="off"
+                      enctype="multipart/form-data"
+                      method="post"
+                      novalidate
+                          action="https://nacwebsite.wufoo.com/forms/mikz4i81sm1f5y/#public">
                       <div class="form-group">
                         <input
+                          id="Field1" 
+                          name="Field1"
                           type="text"
                           class="form-control form-control-lg"
+                          required
                           placeholder="Name"
                         />
                       </div>
                       <div class="form-group">
                         <input
+                          id="Field2" 
+                          name="Field2"
                           type="text"
                           class="form-control form-control-lg"
                           placeholder="Company"
@@ -156,11 +169,16 @@
                       </div>
                       <div class="form-group">
                         <input
+                          id="Field3" 
+                          name="Field3"
                           type="Email"
                           class="form-control form-control-lg"
+                          required
                           placeholder="Email"
                         />
                       </div>
+                      <input type="hidden" id="idstamp" name="idstamp" value="Sy5qORXLNhn8EPjOqlYkADUtHnWii3NM2doYlMYA9Qg=" />
+                      <input type="hidden" id="encryptedPassword" name="encryptedPassword" value="" />
                       <input
                         type="submit"
                         value="Submit"
