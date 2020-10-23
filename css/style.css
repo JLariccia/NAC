@@ -220,6 +220,16 @@ body {
   margin-bottom: 0px;
 }
 
+#thank-you {
+  background-image: url(../img/home-2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 350px;
+  margin-bottom: 0px;
+}
+
 #videos {
   background-image: url(../img/videos.jpg);
   background-position: center center;
