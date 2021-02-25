@@ -3,12 +3,16 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-  ...;
+  h1 {
+    font-size: 1.5rem;
+  } /*1rem = 16px*/
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  ...;
+  h1 {
+    font-size: 1.5rem;
+  } /*1rem = 16px*/
 }
 
 // Large devices (desktops, 992px and up)
@@ -89,7 +93,7 @@ body {
 }
 
 .carousel-image-2 {
-  background: url(../img/products-landing.jpg);
+  background: url(../img/case-study-ECB.jpg);
   background-size: cover;
 }
 
@@ -453,6 +457,14 @@ ul {
 
 li {
   color: white !important;
+}
+
+ol .sitemap {
+  color: #1a428a !important;
+}
+
+ul .sitemap {
+  color: #1a428a !important;
 }
 
 ol {
